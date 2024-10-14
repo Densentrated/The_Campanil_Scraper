@@ -87,7 +87,7 @@ def main():
     #with open('article.csv', 'w') as f:
     #    f.write("title,author,genre,date,content\n")
 
-    with open('articles.csv', 'a') as f:
+    with open('stored_data/articles.csv', 'a') as f:
         for article in articles:
             f.write(article.to_csv() + '\n')
 

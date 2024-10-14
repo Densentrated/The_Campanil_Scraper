@@ -1,0 +1,1 @@
+# cleans up the data in the csv file before passing to the pdf_generator
